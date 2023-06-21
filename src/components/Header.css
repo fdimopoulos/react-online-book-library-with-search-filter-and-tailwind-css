@@ -4,7 +4,7 @@
     align-items: center;
     gap: 1rem;
     min-height: 10vh;
-    width: 100vw;
+    width: 100%;
     background-color: #121212;
     color: #f2f2f2;
 }
@@ -16,9 +16,17 @@ svg {
 
 .header .logo {
     text-transform: uppercase;
+    font-size: 2rem;
 }
 
 .header a {
     text-decoration: none;
     color: #f2f2f2;
+}
+
+@media (max-width: 768px) {
+    .header .logo,
+    h1 {
+        font-size: 1.75rem;
+    }
 }
