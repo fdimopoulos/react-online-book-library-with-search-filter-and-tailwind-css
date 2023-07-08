@@ -7,7 +7,7 @@
 3. npm run dev
 
 
-#Packages that i used
+#Packages that were used
 
 1. react-router-dom
 2. react-icons
