@@ -7,9 +7,9 @@
 3. npm run dev
 
 
-#Packages that i used
+#Packages that were used
 
-1. react-router-dom
+1. react-router
 2. react-icons
 3. axios
 4. tailwind css
