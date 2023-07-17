@@ -52,7 +52,7 @@ const BookList = () => {
                                     </div>
                                     <div>
                                         <img
-                                            className="w-64 h-96 rounded-2xl duration-300 opacity-80 hover:opacity-100 cursor-pointer"
+                                            className="w-64 h-96 rounded-2xl duration-300 opacity-80 hover:opacity-100 cursor-pointer shadow"
                                             src={book.image_url}
                                             alt="book-img"
                                             onClick={() =>
