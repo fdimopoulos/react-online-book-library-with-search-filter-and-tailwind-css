@@ -12,13 +12,17 @@ const BookList = () => {
 
     const navigate = useNavigate();
 
+    const getBooks = async () => {
+        try {
+            const response = await Axios.get(BOOK_LIST_URL);
+            setBooks(response.data);
+        } catch (error) {
+            console.log(error);
+        }
+    };
+
     useEffect(() => {
-        Axios.get(BOOK_LIST_URL)
-            .then((res) => {
-                // console.log(res.data);
-                setBooks(res.data);
-            })
-            .catch((err) => console.log(err));
+        getBooks();
     }, []);
 
     return (
