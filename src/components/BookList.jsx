@@ -29,10 +29,10 @@ const BookList = () => {
         <>
             <div className={darkMode ? "dark" : ""}>
                 <div className="min-h-[80vh] dark:bg-slate-800 dark:text-whitish py-4">
-                    <div className="flex items-center w-4/6 lg:w-6/12 h-12 px-4 mx-auto border-none rounded-lg shadow">
+                    <div className="flex items-center w-4/6 lg:w-6/12 h-12 px-4 mx-auto border-none rounded-lg shadow-[0px_5px_10px_rgba(0,0,0,0.3)]">
                         <FaSearch className="text-blackish w-6 h-6 dark:text-whitish" />
                         <input
-                            className="bg-transparent w-full h-full ml-2 text-lg focus:outline-none dark:border-slate-500 dark:shadow-2xl"
+                            className="bg-transparent w-full h-full ml-2 text-lg focus:outline-none dark:border-slate-500 dark:shadow-2xl "
                             onChange={(e) => setSearch(e.target.value)}
                             placeholder="Search for a book..."
                         />
